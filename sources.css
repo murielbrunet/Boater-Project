@@ -1,0 +1,33 @@
+body{
+    background-image: url("Photos/1910s/background texture 1910s.png");
+    background-size: 100%;
+}
+
+
+@font-face {
+    font-family: catchilds;
+    src: url(Fonts/CATChilds.ttf);
+}
+
+@font-face {
+    font-family: oldStandard;
+    src: url(Fonts/1910s/OldStandard-Regular.ttf);
+}
+
+h1 {
+	font-family: catchilds;
+	font-size: 5em;
+	letter-spacing: 5px;
+    text-align: center;
+}
+
+p {
+	font-family: oldStandard;
+	font-size: 1.5em;
+
+}
+
+.hangingIndent {
+  padding-left: 40px ;
+  text-indent: -40px ;
+}

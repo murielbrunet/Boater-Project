@@ -1,0 +1,122 @@
+body{
+    background-image: url("Photos/1940s/background texture.png");
+	background-size: 100%;
+    font-family: oldesFontParagraph;
+}
+
+@font-face {
+    font-family: greetings;
+    src: url(Fonts/1940s/greetings.regular.ttf);
+}
+
+@font-face {
+    font-family: stonyIsland;
+    src: url(Fonts/1940s/StonyIslandNF.ttf);
+}
+
+h1{
+    font-family: stonyIsland;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 1%;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-family: stonyIsland;
+    text-align: center;
+    font-size: 3em;
+}
+
+#dateTitle {
+	font-size: 4em;
+}
+
+#titleFlare {
+    margin-bottom: 15px;
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+}
+
+.ladies {
+    width: 175%;
+    margin: 50px; 
+    margin-top: 200px;
+}
+
+#modelHolder {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+	width: 400px;
+    margin-top: 3%;
+}
+
+#boaterHatDescription {
+	font-family: greetings;
+	padding: 10px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	font-size: 1.25em;
+	text-align: justify;
+}
+
+#footer{
+    text-align: center;
+}
+
+.brackets {
+	width: 45%;
+}
+
+/*historic carousel*/
+
+.carousel-control.left, .carousel-control.right{
+    opacity: 1;
+    background-image: none;
+	top: 50%;
+} 
+
+.carousel-indicators li{ /* image indicator styling */
+    list-style: square;
+    border: 1px solid black;
+    font-size: .5em;
+    border-radius: 0px;
+    transform: rotate(45deg);  /*make diamond out of square*/  
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-caption{
+    text-align: center;
+    color: black;
+    text-shadow: none;
+    font-family: greetings;
+    font-size: 1.25em;
+    padding: 0px
+}
+
+#historicCarousel {
+    padding-bottom: 80px;
+}
+
+#historicCarousel img{
+    height: 400px;
+    max-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-style: double;
+}
+
+.myImg {
+    padding: 20px;
+
+}

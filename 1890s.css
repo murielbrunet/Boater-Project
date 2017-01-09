@@ -1,0 +1,131 @@
+body{
+/*	background-color: #f9f0e6;*/
+    background-image: url("Photos/1890s/old paper texture.png");
+	background-size: 100%;
+    font-family: oldesFontParagraph;
+}
+
+@font-face {
+    font-family: colwell;
+    src: url(Fonts/1910s/COLWELL_.ttf);
+}
+
+@font-face {
+    font-family: oldStandard;
+    src: url(Fonts/1890s/old-standard-tt/OldStandard-Regular.ttf);
+}
+
+@font-face {
+    font-family: atticRegular;
+    src: url(Fonts/1890s/attic.regular.ttf);
+}
+
+h1{
+    font-family: atticRegular;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: 4px;
+}
+
+h2{
+    font-family: atticRegular;
+    text-align: center;
+    font-size: 3em;
+}
+
+#dateTitle {
+	margin: 0px;
+	font-size: 4em;
+}
+
+#titleFlare {
+    margin: 2%;
+    display: block;
+    width: auto;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ladies{
+    width: 100%;
+    margin: 100px;
+	margin-bottom: 15px;
+}
+
+#modelHolder {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+	width: 400px;
+    margin-top: 4%;
+    margin-bottom: 0px;
+}
+
+#boaterHatDescription{
+	padding: 10px;
+	color: black;
+    text-shadow: none;
+    font-family: oldStandard;
+    font-size: 1.25em;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	text-align: justify;
+}
+
+.brackets{
+	width: 40%;
+}
+
+#footer{
+	padding-top: 20px;
+    text-align: center;
+}
+
+#footer p{
+	margin: 0px;
+}
+/*historic carousel*/
+
+
+.carousel-control.left, .carousel-control.right{
+    opacity: 1;
+    background-image: none;
+    top: 50%;
+} 
+
+.carousel-indicators li{ /* image indicator styling */
+    list-style: square;
+    border: 1px solid black;
+    font-size: .5em;
+    border-radius: 0px;
+    transform: rotate(45deg);  /*make diamond out of square*/  
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-caption{
+    color: black;
+    text-shadow: none;
+    font-family: oldStandard;
+    font-size: 1.25em;
+    text-align: center;
+	padding: 0px;
+}
+
+#historicCarousel {
+    padding-bottom: 80px;
+}
+
+#historicCarousel img{
+    height: 350px;
+    max-height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
