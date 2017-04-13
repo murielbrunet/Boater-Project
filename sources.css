@@ -24,7 +24,25 @@ h1 {
 p {
 	font-family: oldStandard;
 	font-size: 1.5em;
+}
 
+#navbar {
+    text-align: center;
+
+}
+
+#navbar a {
+    color: gray;
+    font-family: catchilds;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navbar a:hover {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
 }
 
 .hangingIndent {
