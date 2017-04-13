@@ -54,11 +54,12 @@ h2{
 	margin-bottom: 15px;
 }
 
-#modelHolder {
+#modelHolder, .sketchfab-embed-wrapper {
     display: block;
     margin-right: auto;
     margin-left: auto;
 	width: 400px;
+    height: 400px;
     margin-top: 4%;
     margin-bottom: 0px;
 }
