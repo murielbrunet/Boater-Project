@@ -1,0 +1,52 @@
+body{
+    background-image: url("Photos/indexBackground.jpg");
+	background-size: 100%;
+    font-family: oldesFontParagraph;
+}
+
+@font-face {
+    font-family: atticRegular;
+    src: url(Fonts/1890s/attic.regular.ttf);
+}
+
+@font-face {
+    font-family: catchilds;
+    src: url(Fonts/CATChilds.ttf);
+}
+
+a {
+	color: gray;
+}
+
+a:hover {
+	color: black;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+h1{
+    font-family: catchilds;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: 4px;
+    margin-top: 5%;
+}
+
+h2{
+    font-family: catchilds;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: : 100px;
+
+}
+
+img {
+	width: 100%;
+}
+
+#footer{
+	padding-top: 20px;
+    text-align: center;
+}
