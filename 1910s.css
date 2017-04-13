@@ -33,6 +33,24 @@ h2{
     text-align: center;
 }
 
+#navbar {
+    text-align: center;
+}
+
+#navbar a {
+    color: gray;
+    font-family: colwell;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navbar a:hover {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
 #dateTitle {
 	margin-top: 0px;
 	font-size: 4em;

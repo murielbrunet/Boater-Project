@@ -34,6 +34,25 @@ h2{
     font-size: 3em;
 }
 
+#navbar {
+        text-align: center;
+
+}
+
+#navbar a {
+    color: gray;
+    font-family: atticRegular;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navbar a:hover {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
 #dateTitle {
 	margin: 0px;
 	font-size: 4em;
