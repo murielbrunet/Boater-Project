@@ -48,6 +48,7 @@ h2{
 }
 
 #dateTitle {
+    margin-top: 50px;
 	font-size: 4em;
 }
 
@@ -62,16 +63,18 @@ h2{
 
 .ladies {
     width: 175%;
-    margin: 50px; 
+    margin: 15px; 
     margin-top: 200px;
 }
 
-#modelHolder {
+#modelHolder, .sketchfab-embed-wrapper {
     display: block;
     margin-right: auto;
     margin-left: auto;
-	width: 400px;
-    margin-top: 3%;
+    width: 600px;
+    height: 400px;
+    margin-top: 4%;
+    margin-bottom: 0px;
 }
 
 #boaterHatDescription {
